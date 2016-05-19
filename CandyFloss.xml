@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ModName>CandyFloss</ModName>
+  <ModDiscription>hi</ModDiscription>
+  <Objects>
+    <Object>
+      <OBJName>CandyFloss@stall2</OBJName>
+      <Type>Shop</Type>
+      <inGameName>stall2</inGameName>
+      <price>0</price>
+      <Shop>
+        <Product>
+          <Model>CandyFloss@Null_2 (1)</Model>
+          <Price>10</Price>
+          <Type>consumable</Type>
+          <Name>Candy Floss</Name>
+          <Hand>Left</Hand>
+          <ConsumeAnimation>generic</ConsumeAnimation>
+          <Temprature>none</Temprature>
+          <Portions>5</Portions>
+          <Ingredients>
+            <Ingredient>
+              <Name>Loads of sugar</Name>
+              <Price>1</Price>
+              <Amount>100</Amount>
+              <tweakable>true</tweakable>
+              <Effects>
+                <effect>
+                  <Type>sugarboost</Type>
+                  <Amount>1</Amount>
+                </effect>
+                <effect>
+                  <Type>happiness</Type>
+                  <Amount>1</Amount>
+                </effect>
+                <effect>
+                  <Type>hunger</Type>
+                  <Amount>1</Amount>
+                </effect>
+              </Effects>
+            </Ingredient>
+          </Ingredients>
+        </Product>
+      </Shop>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+    <Object>
+      <OBJName>CandyFloss@Null_2 (1)</OBJName>
+      <Type>none</Type>
+      <inGameName>Null_2 (1)</inGameName>
+      <price>0</price>
+      <recolorable>false</recolorable>
+      <shader>Diffuse</shader>
+    </Object>
+  </Objects>
+</Mod>
